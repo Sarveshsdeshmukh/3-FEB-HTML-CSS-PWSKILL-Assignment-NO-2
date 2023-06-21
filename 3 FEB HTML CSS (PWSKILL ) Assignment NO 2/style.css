@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section  */
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./Assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{  
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImg:hover{
+    cursor: pointer;
+}
+
+.headerList{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerList a{
+    font-size: 1.6vw;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000000;
+    color: #ffff00;
+}
+
+.headerList a:hover{
+    color: #000000;
+    font-weight: 700;
+}
+
+.headerList a li{
+    list-style: none;
+}
+
+.headerButton button{
+    padding: 1.6vh 4vw;
+    font-size: 1.4vw;
+    border: none;
+    background-color: #fc0800;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 1vh;
+}
+
+.headerButton button:hover{
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* CSS for the main section */
+
+.heroSection{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.heroSectionUp{
+    width: 60vw;
+    text-align: center;
+}
+
+.heroSectionH1{
+    font-size: 5.4vw;
+    font-weight: 600;
+    color: #ffff00;
+    font-family:"poppins";
+}
+
+
+.heroSectionButton{
+    padding: 1.6vh 4vw;
+    font-size: 1.4vw;
+    border: none;
+    background-color: #fc0800;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 1vh;
+}
+
+.heroSectionButton:hover{
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+}
+
+.heroSectionDown img{
+    margin: -4vw 4vw 4vw 82vw;
+}
